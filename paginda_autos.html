@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Autos</title>
+
+    <!-- Agrega el enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Barra de navegación con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Venta de Autos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Encabezado con una imagen de fondo -->
+    <header class="jumbotron jumbotron-fluid text-center" style="background-image: url('auto1.jpeg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4">¡Encuentra el auto de tus sueños!</h1>
+            <p class="lead">Explora nuestro catálogo de autos nuevos y usados.</p>
+            <a class="btn btn-primary btn-lg" href="#">Ver Catálogo</a>
+        </div>
+    </header>
+
+    <!-- Sección de destacados -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="auto1.jpeg" class="card-img-top" alt="Auto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Auto Deportivo</h5>
+                        <p class="card-text">Un auto deportivo de alto rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="auto2.jpg" class="card-img-top" alt="Auto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Auto Familiar</h5>
+                        <p class="card-text">Un espacioso auto familiar con todas las comodidades.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="auto3.jpg" class="card-img-top" alt="Auto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Auto Económico</h5>
+                        <p class="card-text">Un auto económico y eficiente en combustible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agrega el enlace a Bootstrap JS y jQuery para habilitar funcionalidades de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
